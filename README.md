@@ -22,5 +22,5 @@ The water pump is a 5V DC / 2.4W / 250L / 2m water lift and submersible. Pipes u
 ```
    [PUMP]════╦═══════╦═══════╦═...══════╦═══════╦
 hole        #1      #2      #3 ...     #7      #8
-diam       0.5mm   0.5mm    1mm       2.5mm   2.5mm
+ Ø         0.5mm   0.5mm    1mm       2.5mm   2.5mm
 ```

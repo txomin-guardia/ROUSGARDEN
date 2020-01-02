@@ -20,6 +20,7 @@ The case has three possible angular supports for maximum use of solar radiation 
 ##### Pump & Pipes
 The water pump is a 5V DC / 2.4W / 250L / 2m water lift and submersible. Pipes used in this project are 4 mm in diameter and there is an adaptor between the pump outlet and the pipe. For the correct water distribution it is advisable to make holes to the pipes following the next scheme:
 ```
+         ├─────────────── 10~12m ───────────────┤
    [PUMP]════╦═══════╦═══════╦═...══════╦═══════╦
 hole        #1      #2      #3 ...     #7      #8
  Ø         0.5mm   0.5mm    1mm       2.5mm   2.5mm

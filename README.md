@@ -7,6 +7,20 @@ This system is designed for the **autonomous** and **unattended** irrigation of 
 
 
 ### COMPONENTS
+##### Controller
 The main controller of the system is a Wemos D1 Mini board (ESP8266) that works in "deep sleep" mode for maximum energy savings. The board connects to the WiFi network and gets the current time each time the system wake up. The system acts accordingly by "sleeping" again or executing the irrigation task scheduled.
 
-The lithium battery has two charging systems: by solar panels and by external power supply. The case has three possible angular supports for maximum use of solar radiation depending on the season of the year. The maximum duration tested without external power supply has been 25 days. :grinning:
+##### Energy Supply
+There is a 4000 mAh Lithium battery that has two charging systems:
+  - solar panels
+  - external power supply
+  
+The case has three possible angular supports for maximum use of solar radiation depending on the season of the year. The maximum duration tested without external power supply has been 25 days. :grinning:
+
+##### Pump & Pipes
+The water pump is a 5V DC / 2.4W / 250L / 2m water lift and submersible. Pipes used in this project are 4 mm in diameter and there is an adaptor between the pump outlet and the pipe. For the correct water distribution it is advisable to make holes to the pipes following the next scheme:
+```
+   [PUMP]════╦═══════╦═══════╦═...══════╦═══════╦
+hole        #1      #2      #3 ...     #7      #8
+diam       0.5mm   0.5mm    1mm       2.5mm   2.5mm
+```

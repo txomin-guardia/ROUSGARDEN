@@ -1,4 +1,5 @@
 # ROUSGardeN
+*(**R**esearch f**O**r an **U**nattended **S**ystem in a **GardeN**)*
 ## Autonomous Watering System
 
 

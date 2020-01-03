@@ -1,4 +1,4 @@
-# ROUSGARDEN
+# ROUSGardeN
 ## Autonomous Watering System
 
 

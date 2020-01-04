@@ -1,10 +1,8 @@
 # ROUSGardeN
 *(**R**esearch f**O**r an **U**nattended **S**ystem in a **GardeN**)*
-## Autonomous Watering System
-
 
 ### MAIN GOALS
-This system is designed for the **autonomous** and **unattended** irrigation of a small terrace or balcony garden. It can supply water up to 7\~8 plants with a maximum distance of 10\~12 meters. The main goal of the project is to have an unattended system for a complete emptying cycle of a water tank of about 50 liters in 20\~25 days.
+The goal is to create an **Autonomous Unattended & Automated Watering System** for the irrigation of a small terrace or balcony garden. It can supply water up to 7\~8 plants with a maximum distance of 10\~12 meters. The main goal of the project is to have an unattended system for a complete emptying cycle of a water tank of about 50 liters in 20\~25 days.
 
 
 ### COMPONENTS

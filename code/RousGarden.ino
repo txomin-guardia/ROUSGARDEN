@@ -39,8 +39,13 @@ extern "C" {
 #define RESET_PIN 12  //It corresponds to WEMOS D1 MINI - pin D6
 #define RELAY_ON_PIN 5  //It corresponds to WEMOS D1 MINI - pin D1
 
+//# define WITH_SERIAL_DEBUG 1
+# define WITH_CAYENNE_DEBUG 1
+
 //Working with Cayenne
-#define CAYENNE_PRINT Serial
+#if WITH_CAYENNE_DEBUG
+	#define CAYENNE_PRINT Serial
+#endif
 
 //On & Off enumeration
 enum OnOffOption {

@@ -1,4 +1,4 @@
-/* ROUSGarden
+/* ROUSGardeN
     
     Autonomous and Unattended Watering System, ESP8266 controlled with two daily tasks
     

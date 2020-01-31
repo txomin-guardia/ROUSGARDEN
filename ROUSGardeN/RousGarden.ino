@@ -23,7 +23,7 @@
     SOFTWARE.
     
     V1.0 2019-10-6
-    
+        
     (^\s*if \(WithSerialDebug\) \{)(.*?)(\})
     
     \n#if WITH_SERIAL_DEBUG\2\#endif

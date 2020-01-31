@@ -56,8 +56,6 @@ enum OnOffOption {
     On
 };
 
-// Debugging through serial port
-const OnOffOption WithSerialDebug = Off;
 // Debugging through Cayenne IoT Project Builder
 const OnOffOption WithCayenneDebug = On;
 

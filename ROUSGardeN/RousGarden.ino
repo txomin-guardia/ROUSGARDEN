@@ -78,10 +78,10 @@ void setup() {
     //Relay task schedule configuration
     relayTask._wakeupTask1.hour = 8; //Hour of the day
     relayTask._wakeupTask1.minute = 00; //Minute of the day
-    relayTask._wakeupTask1.second = 90; //Duration in sec
-    relayTask._wakeupTask2.hour = 8; //Hour of the day
-    relayTask._wakeupTask2.minute = 00; //Minute of the day
-    relayTask._wakeupTask2.second = 90; //Duration in sec
+    relayTask._wakeupTask1.second = 60; //Duration in sec
+    relayTask._wakeupTask2.hour = 20; //Hour of the day
+    relayTask._wakeupTask2.minute = 05; //Minute of the day
+    relayTask._wakeupTask2.second = 60; //Duration in sec
     
     relayTask.sleepOneDay();
     

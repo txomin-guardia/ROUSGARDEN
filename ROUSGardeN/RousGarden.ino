@@ -42,8 +42,8 @@ extern "C" {
 #define RESET_PIN 12  //It corresponds to WEMOS D1 MINI - pin D6
 #define RELAY_ON_PIN 5  //It corresponds to WEMOS D1 MINI - pin D1
 
-//#define WITH_SERIAL_DEBUG 1
-#define WITH_CAYENNE_DEBUG 1
+#define WITH_SERIAL_DEBUG 1
+//#define WITH_CAYENNE_DEBUG 1
 
 //Working with Cayenne
 #if WITH_CAYENNE_DEBUG
@@ -57,7 +57,7 @@ enum OnOffOption {
 };
 
 // Debugging through Cayenne IoT Project Builder
-const OnOffOption WithCayenneDebug = On;
+const OnOffOption WithCayenneDebug = Off;
 
 // This is the instatiation of the main class that controls the relay
 // Usage:   relayTask(Task #1 Hour, Task #1 Minute, Task #1 Time On (seg), Task #2 Hour, Task #2 Minute, Task #2 Time On (seg), Timezone, WiFi SSID, WiFi PASSWORD, Reset Pin);

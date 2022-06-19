@@ -14,7 +14,7 @@ There is a 4000 mAh Lithium battery that has two charging systems:
   - solar panels
   - external power supply
   
-The case has three possible angular supports for maximum use of solar radiation depending on the season of the year. The maximum duration tested without external power supply has been 25 days. :grinning:
+The case has three possible angular supports for maximum use of solar radiation depending on the season of the year. The maximum duration tested without external power supply has been 8 months. :grinning:
 
 ##### Pump & Pipes
 The water pump is a 5V DC / 2.4W / 250L / 2m water lift and submersible. Pipes used in this project are 4 mm in diameter and there is an adaptor between the pump outlet and the pipe. For the correct water distribution it is advisable to make holes to the pipes following the next scheme:

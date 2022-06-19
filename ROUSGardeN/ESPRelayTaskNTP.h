@@ -34,9 +34,10 @@
 #include <Arduino.h>
 #include <SNTPtime.h>
 
+
 //#define WORK_WITH_E_PAPER //Uncomment if you want to use an e-paper display
 #ifdef WORK_WITH_E_PAPER
-#include "writeInePaper.h"
+  #include "writeInePaper.h"
 #endif
 
 
